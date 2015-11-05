@@ -15,8 +15,13 @@ var tmpl = ' <li id="ID">' +
            ' </li> ';
 
 $(document).ready(function(){
+    $(".solution").hide();
+});
 
-
+$(document).ready(function(){
+    $("h3").click(function() {
+        $(".solution").show();
+    });
 });
 
 
